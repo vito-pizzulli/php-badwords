@@ -2,7 +2,11 @@
     $text = $_GET['paragraph'];
     $word = $_GET['word-to-censor'];
 
+    /* Printing the inserted paragraph and its length */
     echo $text . strlen($text);
+
+    /* Printing the inserted paragraph (with the censored chosen word) and its length */
+    echo str_replace($word, '***', $text);
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +17,6 @@
     <title>PHP Badwords Server</title>
 </head>
 <body>
-    
+
 </body>
 </html>
