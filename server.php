@@ -1,3 +1,10 @@
+<?php
+    $text = $_GET['paragraph'];
+    $word = $_GET['word-to-censor'];
+
+    echo $text . strlen($text);
+?>
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
