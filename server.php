@@ -19,13 +19,13 @@
 <body>
     <main>
         <h1>PHP Badwords</h1>
-        <h2>Paragrafo inserito - Lunghezza</h2>
+        <h2>Testo inserito - Lunghezza</h2>
         <p>
             <?php
                 echo $text . " - " . strlen($text);
             ?>
         </p>
-        <h2>Paragrafo inserito (censurato) - Lunghezza</h2>
+        <h2>Testo censurato - Lunghezza</h2>
         <p>
             <?php
             $censoredText = str_replace($word, '***', $text);
